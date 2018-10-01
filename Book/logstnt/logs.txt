@@ -1,0 +1,16 @@
+{methodName: listAllStudents,className: ma.craft.boomer.controller.BookController,logLevel: CRITICAL,executionTime: 176 ms}
+{methodName: listAllStudents,className: ma.craft.boomer.controller.BookController,logLevel: CRITICAL,executionTime: 3 ms}
+{methodName: listAllStudents,className: ma.craft.boomer.controller.BookController,logLevel: CRITICAL,executionTime: 16 ms}
+{methodName: listAllStudents,className: ma.craft.boomer.controller.BookController,logLevel: CRITICAL,executionTime: 229 ms}
+{methodName: listAllStudents,className: ma.craft.boomer.controller.BookController,logLevel: CRITICAL,executionTime: 219 ms}
+{methodName: getBook,className: ma.craft.boomer.controller.BookController,logLevel: TRIVIAL,executionTime: 12 ms}
+{methodName: getBook,className: ma.craft.boomer.controller.BookController,logLevel: TRIVIAL,executionTime: 19 ms}
+{methodName: getBook,className: ma.craft.boomer.controller.BookController,logLevel: TRIVIAL,executionTime: 19 ms}
+{methodName: getBook,className: ma.craft.boomer.controller.BookController,logLevel: TRIVIAL,executionTime: 4 ms}
+{methodName: getBook,className: ma.craft.boomer.controller.BookController,logLevel: TRIVIAL,executionTime: 19 ms}
+{methodName: getBook,className: ma.craft.boomer.controller.BookController,logLevel: TRIVIAL,executionTime: 4 ms}
+{methodName: getBook,className: ma.craft.boomer.controller.BookController,logLevel: TRIVIAL,executionTime: 2 ms}
+{methodName: findAllMessages,className: ma.craft.boomer.service.BookServiceImp,logLevel: IMPORTANT,executionTime: 93 ms}
+{methodName: findAllMessages,className: ma.craft.boomer.service.BookServiceImp,logLevel: IMPORTANT,executionTime: 14 ms}
+{methodName: findAllMessages,className: ma.craft.boomer.service.BookServiceImp,logLevel: IMPORTANT,executionTime: 14 ms}
+{methodName: listAllStudents,className: ma.craft.boomer.controller.BookController,logLevel: TRIVIAL,executionTime: 36 ms}

@@ -17,7 +17,7 @@ public interface BookRepository extends JpaRepository<Book, Long> {
 	 * @param id the id
 	 * @return the book
 	 */
-	public Book findByBookId(int id);
+	public Book findByBookId(Long id);
 	
 	/**
 	 * Find by book libelle.

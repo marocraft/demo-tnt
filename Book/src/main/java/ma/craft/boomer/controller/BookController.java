@@ -34,7 +34,7 @@ public class BookController {
 	 * 
 	 * @return the response entity en affichant tout les books
 	 */
-	@BusinessLog(level=LogLevel.CRITICAL)
+	@BusinessLog(level= LogLevel.TRIVIAL)
 	@RequestMapping(value = "/books", method = RequestMethod.GET)
 	public ResponseEntity<List<Book>> listAllStudents() {
 		List<Book> messages = bookService.findAllMessages();
@@ -50,8 +50,9 @@ public class BookController {
 	 * @throws DataNotFoundException the data not found exception
 	 * retourner juste un book en presisant son ID 
 	 */
+	
 	@RequestMapping(value="/book/{id}" , method=RequestMethod.GET )
-	public Book getBook(@PathVariable("id") int id) throws DataNotFoundException
+	public Book getBook(@PathVariable("id") Long id) throws DataNotFoundException
 	{
 		return bookService.findById(id);
 	}

@@ -4,6 +4,8 @@ import java.util.List;
 
 import ma.craft.boomer.exception.DataNotFoundException;
 import ma.craft.boomer.model.Book;
+import ma.craft.trackntrace.annotation.BusinessLog;
+import ma.craft.trackntrace.domain.LogLevel;
 
 public interface BookService {
 	
@@ -12,6 +14,7 @@ public interface BookService {
 	 *
 	 * @return the list
 	 */
+	
 	public List<Book> findAllMessages();
 
 	/**
@@ -44,7 +47,8 @@ public interface BookService {
 	 * @param id the id
 	 * @return the book
 	 */
-	public Book findById(int id);
+	
+	public Book findById(Long id);
 	
 	/**
 	 * Find book by libelle.

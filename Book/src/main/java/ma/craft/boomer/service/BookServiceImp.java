@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import ma.craft.boomer.exception.DataNotFoundException;
 import ma.craft.boomer.model.Book;
 import ma.craft.boomer.repository.BookRepository;
+import ma.craft.trackntrace.annotation.BusinessLog;
+import ma.craft.trackntrace.domain.LogLevel;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -42,6 +44,7 @@ public class BookServiceImp implements BookService {
 	/* (non-Javadoc)
 	 * @see ma.craft.boomer.service.BookService#findAllMessages()
 	 */
+	@BusinessLog(level= LogLevel.IMPORTANT)
 	public List<Book> findAllMessages() {
 		return repository.findAll();
 	}
@@ -68,7 +71,7 @@ public class BookServiceImp implements BookService {
 	/* (non-Javadoc)
 	 * @see ma.craft.boomer.service.BookService#findById(int)
 	 */
-	public Book findById(int id) {
+	public Book findById(Long id) {
 		return repository.findByBookId(id);
 	}
 	

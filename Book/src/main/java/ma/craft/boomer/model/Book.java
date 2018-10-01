@@ -44,6 +44,7 @@ public class Book {
 		this.bookDescription = bookDescription;
 	}
 
+	
 	public static class BookBuilder {
 		private String bookLibelle;
 		private String bookDescription;
